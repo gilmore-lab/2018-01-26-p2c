@@ -1,0 +1,477 @@
+---
+title: "A platform for behavioral discovery"
+author: "Rick O. Gilmore"
+date: "`r Sys.time()`"
+output:
+  revealjs::revealjs_presentation:
+    self_contained: false
+    lib_dir: libs
+    incremental: false
+    theme: default
+    transition: none
+    reveal_plugins: ["notes", "zoom"]
+    reveal_options:
+      slideNumber: true
+      previewLinks: false
+      center: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Support
+
+---
+
+<div class="centered">
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/87/NSF_Logo.PNG" height=250px>
+<img src="https://science.nichd.nih.gov/confluence/download/attachments/34472103/NICHD-vertical-2-color.png?version=1&modificationDate=1477410070000&api=v2" height=250px>
+</br>
+<img src="https://sloan.org/storage/app/media/Logos/Sloan-Logo-stacked-black-web.png" height-250px>
+<img src="http://sagebase.org/wp-content/uploads/2016/03/sponsor_NIHmentalhealth.jpg" height=250px>
+</div>
+
+# Agenda
+
+---
+
+### Survey/discussion
+
+### Status report
+
+### New initiative(s)
+
+# Survey/discussion {data-background=#999999}
+
+## Developmental science could be more open & transparent
+
+---
+
+### Agree
+
+### Disagree
+
+## Developmental science *should* be more open and transparent
+
+---
+
+### Agree
+
+### Disagree
+
+## Openness and transparency are related to research robustness (reproducibility, reliability)
+
+---
+
+### Agree
+
+### Disagree
+
+## Data from developmental research should be more widely and readily available
+
+---
+
+### Agree
+
+### Disagree
+
+## Methods and materials used in developmental research should be more widely and readily available
+
+---
+
+### Agree
+
+### Disagree
+
+## I have used data shared by others
+
+---
+
+### Agree
+
+### Disagree
+
+## If data from publication X or project Y were more widely and readily available, I would use it
+
+---
+
+### Agree
+
+### Disagree
+
+## Unless there are privacy or contractual limitations, data files described in ALL published papers should be readily available in reusable forms
+
+---
+
+### Agree
+
+### Disagree
+
+## I use video or audio recordings in my teaching
+
+---
+
+### Agree
+
+### Disagree
+
+## I use video or audio recordings in my current research
+
+---
+
+### Agree
+
+### Disagree
+
+## I can imagine using video or audio recordings in my research
+
+---
+
+### Agree
+
+### Disagree
+
+## I use video or audio recordings to document my research procedures
+
+---
+
+### Agree
+
+### Disagree
+
+## I could envision using video or audio recordings to document my research procedures
+
+---
+
+### Agree
+
+### Disagree
+
+## Video and audio recordings require extensive and expensive post-processing and coding
+
+---
+
+### Agree
+
+### Disagree
+
+## It's hard to find and access data that I might want to repurpose
+
+---
+
+### Agree
+
+### Disagree
+
+## Once found and accessed, there can be a huge cost in "harmonizing" data from different sources
+
+---
+
+### Agree
+
+### Disagree
+
+## Developments in machine learning, computer vision and related fields are interesting to me
+
+---
+
+### Agree
+
+### Disagree
+
+## I would be interested in using machine learning, computer vision, or related tools in my research
+
+---
+
+### Agree
+
+### Disagree
+
+## I employ reproducible practices and tools (e.g., SPSS or SAS syntax, R code, Jupyter notebooks) in my research workflows
+
+---
+
+### Agree
+
+### Disagree
+
+# Status update {data-background=#999999}
+
+
+---
+
+<a href="http://databrary.org">
+<img src="https://nyu.databrary.org/web/images/logo/databrary-nav.svg" height=200px/>
+</a>
+
+Funded NSF (2012-16), NICHD (2013-18), & Sloan Fdn (2017-18)
+
+Opened spring 2014
+
+Approaching 1,000 researchers (~680 PIs + ~290 affiliates)
+
+500+ data/stimulus sets (~20% shared), 13,700+ hours
+
+---
+
+<img src="http://datavyu.org/theme/img/logo/datavyu.png" height=150px/> 
+
+Free, open-source, multi-platform video/audio coding tool
+
+Windows OS fix nearly complete
+
+Updates for transcription
+
+## Play & Learning Across a Year (PLAY) Project
+
+---
+
+Play is the central context and activity of early development
+
+What do parents and infants actually *do* when they play?
+
+---
+
+<div class="centered">
+<video width="750" height="500" controls >
+  <source src="https://nyu.databrary.org/slot/11652/307774,376273/asset/47075/download?inline=true" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+Adolph, K., Tamis-LeMonda, C. & Gilmore, R.O. (2016). PLAY Project: Webinar discussions on protocol and coding. Databrary. Retrieved January 24, 2018 from https://nyu.databrary.org/volume/232
+</div>
+
+---
+
+<div class="centered">
+<video width="750" height="500" controls >
+  <source src="https://nyu.databrary.org/slot/14167/381504,4603862/asset/59930/download?inline=true" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+Adolph, K., Tamis-LeMonda, C. & Gilmore, R.O. (2016). PLAY Project: Materials. Databrary. Retrieved January 24, 2018 from https://nyu.databrary.org/volume/254.
+</div>
+
+---
+
+- $n=900$ infant/mother dyads; 300 @ 12-, 18-, 24-months
+- 30 dyads from 30 sites across the US
+- 1 hr natural activity 
+    - 3 min solitary toy play 
+    - 2 min dyadic toy play
+    - video tour of home
+
+---
+
+- Videos coded for
+    - [Emotional expression](https://dev1.ed-projects.nyu.edu/wikis/docuwiki/doku.php/emotion)
+    - [Object interaction](https://dev1.ed-projects.nyu.edu/wikis/docuwiki/doku.php/manual3)
+    - Physical activity & [locomotion](https://dev1.ed-projects.nyu.edu/wikis/docuwiki/doku.php/manual4)
+    - [Full transcript](https://dev1.ed-projects.nyu.edu/wikis/docuwiki/doku.php/transcription), [Communication](https://dev1.ed-projects.nyu.edu/wikis/docuwiki/doku.php/manual2), and [Gesture](https://dev1.ed-projects.nyu.edu/wikis/docuwiki/doku.php/gesture)
+- Enhancements to [Datavyu](http://datavyu.org) for transcription, CHAT compatibility, Windows support
+
+---
+
+<div class="centered">
+<img src="https://github.com/PLAY-behaviorome/video-coding/blob/master/video-code-file-export-cleaning_files/figure-markdown_github/loc-time-series-baby-1.png?raw=true" height=500px>
+
+<https://github.com/PLAY-behaviorome/video-coding>
+</div>
+
+---
+
+<div class="centered">
+<img src="https://github.com/PLAY-behaviorome/video-coding/blob/master/video-code-file-export-cleaning_files/figure-markdown_github/voc.type-1.png?raw=true" height=500px>
+
+<https://github.com/PLAY-behaviorome/video-coding>
+</div>
+
+---
+
+- Demographics + parent-report questionnaires about health, family, temperament
+- Ambient sound levels
+
+---
+
+<div class="centered">
+<img src="https://github.com/PLAY-behaviorome/ambient-sound/blob/master/ambient-sound-ny-pilot_files/figure-markdown_github/plots-by-sub-db.avg-1.png?raw=true" height=500px>
+</div>
+
+---
+
+- Census block group geocoding
+
+---
+
+<div class="centered">
+<img src="https://github.com/PLAY-behaviorome/site-demographics/blob/master/img/income-rent-region-1.png?raw=true" height=500px>
+</div>
+
+---
+
+<div class="centered">
+<img src="https://github.com/PLAY-behaviorome/site-demographics/blob/master/img/black-hispanic-region-1.png?raw=true" height=500px>
+</div>
+
+---
+
+- Data openly shared on Databrary
+    - Adolph, K., Tamis-LeMonda, C. & Gilmore, R.O. (2016). PLAY Project: Materials. Databrary. Retrieved January 24, 2018 from https://nyu.databrary.org/volume/254.
+    - Adolph, K., Tamis-LeMonda, C. & Gilmore, R.O. (2017). PLAY Pilot Data Collections. Databrary. Retrieved January 24, 2018 from https://nyu.databrary.org/volume/444
+
+---
+
+- Video as data **AND** documentation
+
+---
+
+<div class="centered">
+<a href="http://doi.org/10.1038/s41562-017-0128">
+<img src="https://github.com/gilmore-lab/sips-2017-video-reproducibility/blob/master/img/gilmore-adolph-nat-hum-beh.jpg?raw=true" height=500px>
+</a>
+
+[Gilmore & Adolph 2017](http://doi.org/10.1038/s41562-017-0128)
+</div>
+
+---
+
+<div class="centered">
+<a href="https://dev1.ed-projects.nyu.edu/wikis/docuwiki">
+<img src="https://github.com/gilmore-lab/sips-2017-video-reproducibility/blob/master/img/play-wiki.jpg?raw=true" height=500px>
+</a>
+</div>
+
+## What questions would *you* ask about these sorts of data?
+
+## How could the data be made maximimally useful to other researchers?
+
+# How infrastructure can enable open, transparent, and reproducible, "big data" developmental science {data-background=#999999}
+
+---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pW6nZXeWlGM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<https://youtu.be/pW6nZXeWlGM>
+<https://github.com/ZheC/Realtime_Multi-Person_Pose_Estimation>
+
+---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VOC3huqHrss" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<https://youtu.be/VOC3huqHrss>
+<https://pjreddie.com/darknet/yolo/>
+
+---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zEhlimS9feo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<https://www.youtube.com/watch?v=zEhlimS9feo#action=share>
+
+---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NRLlRh2apA8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+---
+
+<video controls>
+  <source src="https://nyu.databrary.org/slot/11680/0,24500/asset/41871/download?inline=true" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+Jayaraman, S., et al. (2014). Natural Scene Statistics of Visual Experience Across Development and Culture. Databrary. Retrieved January 24, 2018 from http://doi.org/10.17910/B7988V
+
+---
+
+<audio controls>
+  <source src="https://nbviewer.jupyter.org/github/gilmore-lab/pliers-play/blob/master/snd/peep-I-neu-chk.wav" type="audio/wav">
+</audio>
+</br>
+<audio controls>
+  <source src="https://nbviewer.jupyter.org/github/gilmore-lab/pliers-play/blob/master/snd/peep-I-hap-tlk.wav" type="audio/wav">
+</audio>
+
+Cole, P.M., Gilmore, R.O., Scherf, K.S. & Perez-Edgar, K. (2016). The Proximal Emotional Environment Project (PEEP). Databrary. Retrieved January 24, 2018 from http://doi.org/10.17910/B7.248
+
+[Jupyter notebook](https://nbviewer.jupyter.org/github/gilmore-lab/pliers-play/blob/master/pliers-vision-speech-api-test.ipynb)
+
+## From static repository to dynamic analysis platform
+
+## NSF Research Implementations for Data Intensive Research in the Social, Behavioral, and Economic Sciences (RIDIR)
+
+<https://www.nsf.gov/pubs/2018/nsf18517/nsf18517.htm>
+
+3-4 awards, anticipated funding $4.5 M
+
+Due February 28, 2018
+
+## Our idea
+
+### Aim 1: Enhance Databrary's shared video & audio recordings with new, machine-generated metadata
+
+### Aim 2: Create secure, cloud-based workspace for developing and testing machine learning models on Databrary resources
+
+### Aim 3: Develop robust workflows for automated audio analysis
+
+### Aim 4: Develop robust workflows for automated gaze direction analysis from video
+
+## Aim 1
+
+Collaborate with Tal Yarkoni and adapt his (NIH-funded) [`pliers`](http://tyarkoni.github.io/pliers/index.html) package
+
+How to return 'tags' to Databrary in useful form?
+
+Offer tagging to unshared data volumes?
+
+Privacy/confidentiality issues
+
+## Aim 2
+
+Facilitate convenient `sshfs` or similar file-sharing
+
+Infrastructure to spawn cloud-based virtual machines to manage computationally intensive analyses
+
+## Aim 3
+
+Collaborate with [Speech Recognition Virtual Kitchen](http://speechkitchen.org/) scientists
+
+Apply sound categorization filters--"speech/non-speech"
+
+Then speaker category--"adult/child"
+
+Then speech-to-text on videos using [this tool or similar](https://github.com/srvk/eesen-transcriber)
+
+## Aim 4
+
+Collaborate with Kim Scott ([LookIt](http://lookit.mit.edu)), Rhodri Cusack and others
+
+Develop and test new ML model from existing tagged training data + eye tracking
+
+---
+
+<http://cusacklab.s3.amazonaws.com/html/downloads/annotate3.mp4>
+
+Source: Rhodri Cusack
+
+## The bigger picture
+
+Bring reproducible machine-assisted video/audio tagging to wider range of behavioral scientists
+
+Make data sharing appealing, attractive, valuable
+
+Make psychology a more cumulative science ([Mischel 2009](https://www.psychologicalscience.org/observer/becoming-a-cumulative-science))
+
+## Your turn
+
+# Stack
+
+---
+
+This talk was produced on `r Sys.time()` in [RStudio 1.1.383](http://rstudio.com) using R Markdown and the reveal.JS framework.
+The code and materials used to generate the slides may be found at <https://github.com/gilmore-lab/2018-01-26-p2c/>. 
+Information about the R Session that produced the slides is as follows:
+
+---
+
+```{r session-info}
+sessionInfo()
+```
