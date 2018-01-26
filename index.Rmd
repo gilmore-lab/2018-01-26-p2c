@@ -1,5 +1,5 @@
 ---
-title: "A platform for behavioral discovery"
+title: "The Video DatAbservatory: A platform for behavioral discovery"
 author: "Rick O. Gilmore"
 date: "`r Sys.time()`"
 output:
@@ -60,7 +60,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Disagree
 
-## Openness and transparency are related to research robustness (reproducibility, reliability)
+## Openness and transparency are related to research robustness (e.g., reproducibility, reliability, impact)
 
 ---
 
@@ -100,7 +100,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Disagree
 
-## Unless there are privacy or contractual limitations, data files described in ALL published papers should be readily available in reusable forms
+## Unless there are privacy or contractual limitations, data files described in published papers should be readily available in forms reusable by others
 
 ---
 
@@ -180,7 +180,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Disagree
 
-## I would be interested in using machine learning, computer vision, or related tools in my research
+## I would be interested in using machine learning, computer vision, or related tools in my research under the right circumstances
 
 ---
 
@@ -188,16 +188,15 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Disagree
 
-## I employ reproducible practices and tools (e.g., SPSS or SAS syntax, R code, Jupyter notebooks) in my research workflows
+<!-- ## I employ reproducible practices and tools (e.g., SPSS or SAS syntax, R code, Jupyter notebooks) in my research workflows -->
 
----
+<!-- --- -->
 
-### Agree
+<!-- ### Agree -->
 
-### Disagree
+<!-- ### Disagree -->
 
 # Status update {data-background=#999999}
-
 
 ---
 
@@ -227,9 +226,11 @@ Updates for transcription
 
 ---
 
-Play is the central context and activity of early development
+### Play is the central context and activity of early development
 
-What do parents and infants actually *do* when they play?
+---
+
+### What do parents and infants actually *do* when they play?
 
 ---
 
@@ -345,6 +346,8 @@ Adolph, K., Tamis-LeMonda, C. & Gilmore, R.O. (2016). PLAY Project: Materials. D
 
 ## How could the data be made maximimally useful to other researchers?
 
+## Ideas about seeking additional funding
+
 # How infrastructure can enable open, transparent, and reproducible, "big data" developmental science {data-background=#999999}
 
 ---
@@ -410,37 +413,47 @@ Due February 28, 2018
 
 ### Aim 2: Create secure, cloud-based workspace for developing and testing machine learning models on Databrary resources
 
-### Aim 3: Develop robust workflows for automated audio analysis
-
-### Aim 4: Develop robust workflows for automated gaze direction analysis from video
+### Aim 3: Develop robust workflows for automated gaze direction analysis from video
 
 ## Aim 1
 
 Collaborate with Tal Yarkoni and adapt his (NIH-funded) [`pliers`](http://tyarkoni.github.io/pliers/index.html) package
+ 
+images/video: faces, objects, visual saliency, indoor/outdoor, text in image
 
-How to return 'tags' to Databrary in useful form?
+sound: speech/non-speech, sound spectra
 
-Offer tagging to unshared data volumes?
+---
+
+How to return 'tags' to Databrary in useful form? (time series + summary stats)
+
+Offer tagging of unshared data volumes?
 
 Privacy/confidentiality issues
 
 ## Aim 2
 
-Facilitate convenient `sshfs` or similar file-sharing
+### Cloud-based workspace for analysis & visualization
 
-Infrastructure to spawn cloud-based virtual machines to manage computationally intensive analyses
+### Linked to Databrary files
+
+### Facilitate convenient `sshfs` or similar file-sharing, version control
+
+### Infrastructure to spawn cloud-based virtual machines to manage computationally intensive analyses
+
+### `Ingest' session metadata from spreadsheets
+
+<!-- ## Aim 3 -->
+
+<!-- Collaborate with [Speech Recognition Virtual Kitchen](http://speechkitchen.org/) scientists -->
+
+<!-- Apply sound categorization filters--"speech/non-speech" -->
+
+<!-- Then speaker category--"adult/child" -->
+
+<!-- Then speech-to-text on videos using [this tool or similar](https://github.com/srvk/eesen-transcriber) -->
 
 ## Aim 3
-
-Collaborate with [Speech Recognition Virtual Kitchen](http://speechkitchen.org/) scientists
-
-Apply sound categorization filters--"speech/non-speech"
-
-Then speaker category--"adult/child"
-
-Then speech-to-text on videos using [this tool or similar](https://github.com/srvk/eesen-transcriber)
-
-## Aim 4
 
 Collaborate with Kim Scott ([LookIt](http://lookit.mit.edu)), Rhodri Cusack and others
 
@@ -456,7 +469,7 @@ Source: Rhodri Cusack
 
 Bring reproducible machine-assisted video/audio tagging to wider range of behavioral scientists
 
-Make data sharing appealing, attractive, valuable
+Make data sharing even more appealing, attractive, valuable
 
 Make psychology a more cumulative science ([Mischel 2009](https://www.psychologicalscience.org/observer/becoming-a-cumulative-science))
 
